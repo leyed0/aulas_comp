@@ -1,11 +1,12 @@
 #include<stdio.h>
 
 int main(int argc, char**argv){
-    float salario, agua, val;
-    printf("Digite o salario e a quantidade de agua consumida em litros: ");
-    scanf("%f %f", &salario, &agua);
-    val = (agua/1000)*salario*2/100;
-    printf("O valor da conta de agua é: %.2f\n", val);
-    printf("O valor da conta de agua com desconto é: %.2f", val*(1-0.15));
+    int a, b, c;
+    printf("Informe o valor de a: ");
+    scanf("%d",&a);
+    printf("Informe o valor de b: ");
+    scanf("%d",&b);
+
+    printf("O valor de a é: %d e o valor de b é: %d", a, b);
     return 0;
 }
